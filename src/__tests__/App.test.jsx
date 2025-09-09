@@ -1,4 +1,4 @@
-// src/__tests__/App.test.js
+// src/__tests__/App.test.jsx
 import { render, screen, fireEvent } from '@testing-library/react';
 import App from '../App';
 
