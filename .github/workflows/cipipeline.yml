@@ -35,7 +35,7 @@ jobs:
         run: npm run build
 
       - name: "Upload production ready build files"
-        uses: actions/upload-artifact@v3
-        with:
+        uses: actions/upload-artifact@v4
+        with: 
           name: react-build
-          path: dist # change to 'build' if using CRA
+          path: dist
